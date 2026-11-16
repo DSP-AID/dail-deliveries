@@ -55,4 +55,4 @@ Schema notes: request-extension requires reason + extra_hours (1..72); services 
 Real clock lapse at stall/work deadlines, 7-day auto-accept backstop, hunter withdraw after 72h, dispute flow — all require hours-to-days of wall clock beyond this session window.
 
 ## Cleanup state
-All test bounties cancelled/completed; test escrow fully returned: b650_poster balance 4 (10 grant −2 in-flight none... final holdings: 4 free after cleanup), b650_h1 17, b650_h2 8 (2 paid to h1 via ord_0167, fee 1 to house). No production account touched.
+All test bounties cancelled/completed; all test escrow either paid out or refunded: final balances b650_poster 4 (10 grant − 2 each on the three completed bounties bnty_0657/0660/0661), b650_h1 17, b650_h2 8 (2 paid to h1 via ord_0167, fee 1 to house). No production account touched.
